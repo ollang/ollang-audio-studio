@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.256 --> 00:00:02.152
+Tá, achei as tarefas na fila.
+
+00:00:03.003 --> 00:00:05.686
+É, a primeira tentativa não parou.
+
+00:00:06.440 --> 00:00:08.095
+Quem desistiu foi a página.
+
+00:00:08.786 --> 00:00:11.789
+O servidor continuou fazendo o
+relatório normalmente.
+
+00:00:12.400 --> 00:00:14.825
+Aí chegou outra tentativa e
+começou tudo de novo.
+
+00:00:15.194 --> 00:00:18.696
+Não é uma fila de coisas diferentes, é a
+mesma coisa várias vezes.
+
+00:00:19.065 --> 00:00:22.149
+Inclusive o mesmo gráfico, que
+continua sem explicar nada.
+
+00:00:22.680 --> 00:00:23.354
+E tem mais.
+
+00:00:23.804 --> 00:00:28.173
+O serviço que recebe as chamadas já
+tenta três vezes antes de devolver um erro.
+
+00:00:28.623 --> 00:00:32.035
+Então, a mudança nova está repetindo uma
+operação que já se repete.
+
+00:00:32.550 --> 00:00:35.641
+Peraí, o processo em segundo
+plano também faz isso?
+
+00:00:36.333 --> 00:00:37.588
+Vou mandar os registros.
+
+00:00:38.184 --> 00:00:41.773
+Por enquanto, ninguém aperta o botão,
+nem para ver se melhorou.
+

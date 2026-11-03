@@ -1,0 +1,67 @@
+{
+  "name": "ollang-audio-studio",
+  "version": "0.1.0",
+  "description": "A local audio studio demonstrating Ollang audio translation, captions, and app localization.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.17.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:server": "tsx watch server/index.ts",
+    "dev:client": "vite",
+    "build": "tsc --noEmit && vite build",
+    "start": "node --import tsx server/index.ts",
+    "check": "tsc --noEmit && eslint . && prettier --check . && npm run localize -- check && npm run docs:check",
+    "format": "prettier --write .",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "localize": "node --import tsx scripts/localize.ts",
+    "docs:check": "node scripts/check-docs.mjs",
+    "docs:release": "node scripts/check-docs.mjs --release",
+    "provider:check": "node --import tsx scripts/provider-preflight.mjs",
+    "export": "node scripts/export.mjs"
+  },
+  "dependencies": {
+    "@fastify/static": "10.1.6",
+    "fastify": "5.12.7",
+    "i18next": "26.4.5",
+    "lucide-react": "1.64.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-i18next": "17.0.16",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "eslint": "10.13.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.4"
+  },
+  "overrides": {
+    "glob": "14.0.3",
+    "minimatch": "11.0.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollang/ollang-audio-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ollang/ollang-audio-studio/issues"
+  },
+  "homepage": "https://github.com/ollang/ollang-audio-studio#readme"
+}

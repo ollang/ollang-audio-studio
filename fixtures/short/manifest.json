@@ -1,0 +1,29 @@
+[
+  {
+    "file": "fixtures/short/en.wav",
+    "language": "en",
+    "seconds": 3.4,
+    "speechSeconds": 2.6,
+    "source": "public/samples/conversations/01-english/original.wav",
+    "sourceSha256": "27091e3c17cc8cb48dea46eaa7a751cb04aa84eafd155922da65ab54b7c3a235",
+    "sha256": "9e159b43e3a5b7cc0919ddefe45fab92a3f738a6be7f8d5c6a208c10de42c937"
+  },
+  {
+    "file": "fixtures/short/pt.wav",
+    "language": "pt",
+    "seconds": 5.0,
+    "speechSeconds": 2.6,
+    "source": "public/samples/conversations/02-portuguese/original.wav",
+    "sourceSha256": "39623ad074fd5d00d6b3e000cfc63e5ceddd3055675c14acca48a67ecbcfcd0d",
+    "sha256": "c58da322a42d4345dd9ce07f474065c3006ae7fb8d7091ee25c821f4a08b5ee2"
+  },
+  {
+    "file": "fixtures/short/de.wav",
+    "language": "de",
+    "seconds": 5.0,
+    "speechSeconds": 5.0,
+    "source": "public/samples/conversations/04-german/original.wav",
+    "sourceSha256": "a098d375c687af43fa534b98851539f5d66e46a073072a022c84e6f90c50e42e",
+    "sha256": "94e146fe3514cb507f4062ba6faef1784159a9430f9efb853b78ebc0114a3bb5"
+  }
+]

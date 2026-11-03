@@ -1,0 +1,79 @@
+version: 2
+# Routine upgrade PRs are paused for launch; security updates remain enabled.
+# Raise open-pull-requests-limit to 2 to resume grouped weekly maintenance.
+# allow.update-types restricts version updates only, so security fixes can still
+# cross a major version when required. See docs/dependency-maintenance.md.
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    allow:
+      - dependency-name: '*'
+        update-types:
+          - version-update:semver-minor
+          - version-update:semver-patch
+    groups:
+      npm-maintenance:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: [minor, patch]
+      npm-security:
+        applies-to: security-updates
+        patterns: ['*']
+  - package-ecosystem: pip
+    directory: /audio-service
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    allow:
+      - dependency-name: '*'
+        update-types:
+          - version-update:semver-minor
+          - version-update:semver-patch
+    groups:
+      pip-maintenance:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: [minor, patch]
+      pip-security:
+        applies-to: security-updates
+        patterns: ['*']
+  - package-ecosystem: docker
+    directories:
+      - /
+      - /audio-service
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    allow:
+      - dependency-name: '*'
+        update-types:
+          - version-update:semver-patch
+    groups:
+      docker-maintenance:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: [patch]
+      docker-security:
+        applies-to: security-updates
+        patterns: ['*']
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    allow:
+      - dependency-name: '*'
+        update-types:
+          - version-update:semver-minor
+          - version-update:semver-patch
+    groups:
+      github-actions-maintenance:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: [minor, patch]
+      github-actions-security:
+        applies-to: security-updates
+        patterns: ['*']

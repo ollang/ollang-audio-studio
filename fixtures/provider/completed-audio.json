@@ -1,0 +1,37 @@
+{
+  "id": "dub-fixture",
+  "projectId": "project-fixture",
+  "type": "aiDubbing",
+  "sourceLanguage": "en",
+  "targetLanguage": "es",
+  "status": "completed",
+  "level": 0,
+  "vttUrl": "",
+  "orderDocs": [
+    {
+      "type": "created_accompaniment_audio",
+      "url": "https://media.example.invalid/artifact-0",
+      "duration": null
+    },
+    {
+      "type": "created_source_vocals_only_audio",
+      "url": "https://media.example.invalid/artifact-1",
+      "duration": null
+    },
+    {
+      "type": "created_ai_dub_audio",
+      "url": "https://media.example.invalid/artifact-2",
+      "duration": null
+    },
+    {
+      "type": "created_ai_dub_vocals_only_audio",
+      "url": "https://media.example.invalid/artifact-3",
+      "duration": null
+    },
+    {
+      "type": "created_embedded_video",
+      "url": "https://media.example.invalid/artifact-4",
+      "duration": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.wav binary
+*.mp3 binary
+*.m4a binary
+*.ogg binary
+*.webm binary
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Preserve verified provider captions, including their final cue separator.
+*.vtt whitespace=-blank-at-eof

@@ -1,0 +1,6 @@
+# Publish only the private detector's port for a native Node/Vite development session.
+# Use with compose.yaml; the normal Docker install never exposes this port.
+services:
+  audio:
+    ports:
+      - '127.0.0.1:4312:4312'

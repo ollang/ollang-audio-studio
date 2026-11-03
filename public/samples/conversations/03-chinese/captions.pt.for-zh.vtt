@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00:00.660 --> 00:00:03.600
+É, aqui no back-end também vai
+tentar três vezes.
+
+00:00:04.610 --> 00:00:07.962
+Espera aí, não são três novas
+tentativas; são
+
+00:00:07.963 --> 00:00:11.390
+no máximo três execuções,
+contando a primeira.
+
+00:00:11.640 --> 00:00:18.540
+Três no cliente, três no gateway e mais
+três no back-end: um único clique pode
+
+00:00:18.540 --> 00:00:21.839
+resultar em até vinte e sete
+execuções. Cada camada
+
+00:00:21.840 --> 00:00:24.880
+acha que está fazendo a sua
+parte, o problema é
+
+00:00:24.880 --> 00:00:27.985
+que a requisição expirou o tempo
+limite. A tarefa de
+
+00:00:27.986 --> 00:00:31.390
+gerar o relatório não parou, e a
+nova requisição veio sem
+
+00:00:31.390 --> 00:00:37.630
+o mesmo ID de requisição, então o
+sistema acha: "Opa, veio outra". Isso não é
+
+00:00:37.630 --> 00:00:40.895
+resiliência, é retrabalho.
+Primeiro desativem a nova
+
+00:00:40.896 --> 00:00:44.350
+tentativa automática
+recém-adicionada e parem de enviar
+
+00:00:44.350 --> 00:00:47.935
+novas requisições; deixem a fila
+esvaziar aos poucos. A desduplicação terá
+
+00:00:47.936 --> 00:00:51.230
+que ser feita à parte. Deixa eu checar
+esse código antigo para saber
+
+00:00:51.230 --> 00:00:56.530
+quem o escreveu... É, parece que essa
+pessoa está aqui no grupo.
+

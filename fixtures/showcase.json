@@ -1,0 +1,670 @@
+{
+  "title": "The Five-Minute Fix",
+  "clips": [
+    {
+      "id": "showcase-en",
+      "title": "Alex: One click, nine jobs",
+      "language": "en",
+      "url": "/samples/conversations/01-english/original.wav",
+      "duration": 35.030208,
+      "captions": [
+        {
+          "language": "en",
+          "audioLanguage": "en",
+          "cues": [
+            {
+              "start": 0.176,
+              "end": 2.376,
+              "text": "Hey, can someone take a look at\nthe export queue?"
+            },
+            { "start": 2.938, "end": 3.773, "text": "I added retries." },
+            {
+              "start": 4.287,
+              "end": 6.872,
+              "text": "Six lines, thought I'd be out of\nhere in five minutes."
+            },
+            {
+              "start": 7.241,
+              "end": 8.975,
+              "text": "Now I've got nine jobs from one click."
+            },
+            { "start": 9.489, "end": 10.244, "text": "There are 12 now." },
+            { "start": 10.629, "end": 11.303, "text": "It's still going up!" },
+            {
+              "start": 11.994,
+              "end": 15.382,
+              "text": "And before you ask, no, I didn't sit\nthere clicking the button."
+            },
+            {
+              "start": 16.008,
+              "end": 17.678,
+              "text": "I clicked once and went to get water."
+            },
+            {
+              "start": 18.015,
+              "end": 22.35,
+              "text": "The page says it failed, but something's\ndefinitely running because the servers are"
+            },
+            { "start": 22.35, "end": 22.993, "text": "getting hammered." },
+            {
+              "start": 23.571,
+              "end": 25.144,
+              "text": "I'll put the job numbers in the chat."
+            },
+            {
+              "start": 25.53,
+              "end": 27.542,
+              "text": "Can you check what's still running\nafter the timeout?"
+            },
+            {
+              "start": 27.816,
+              "end": 30.908,
+              "text": "I think I've made the same problem\nhappen faster, so that's nice."
+            },
+            {
+              "start": 31.6,
+              "end": 32.985,
+              "text": "I was about to close my laptop too."
+            },
+            {
+              "start": 33.709,
+              "end": 34.772,
+              "text": "Apparently we're doing this now."
+            }
+          ]
+        },
+        {
+          "language": "pt",
+          "audioLanguage": "en",
+          "cues": [
+            {
+              "start": 0.176,
+              "end": 2.376,
+              "text": "Ei, alguém pode dar uma olhada na\nfila de exportação?"
+            },
+            { "start": 2.938, "end": 3.773, "text": "Adicionei retentativas." },
+            {
+              "start": 4.287,
+              "end": 6.872,
+              "text": "Seis linhas, achei que sairia\ndaqui em cinco minutos."
+            },
+            {
+              "start": 7.241,
+              "end": 8.975,
+              "text": "Agora tenho nove tarefas com\num único clique."
+            },
+            { "start": 9.489, "end": 10.244, "text": "Agora são 12." },
+            { "start": 10.629, "end": 11.303, "text": "Ainda está subindo!" },
+            {
+              "start": 11.994,
+              "end": 15.382,
+              "text": "E antes que você pergunte, não, não\nfiquei lá clicando no botão."
+            },
+            {
+              "start": 16.008,
+              "end": 17.678,
+              "text": "Cliquei uma vez e fui pegar água."
+            },
+            {
+              "start": 18.015,
+              "end": 20.285,
+              "text": "A página diz que falhou, mas\ncom certeza tem"
+            },
+            {
+              "start": 20.286,
+              "end": 22.35,
+              "text": "algo rodando, porque os servidores estão"
+            },
+            { "start": 22.35, "end": 22.993, "text": "sobrecarregados." },
+            {
+              "start": 23.571,
+              "end": 25.144,
+              "text": "Vou colocar os números das\ntarefas no chat."
+            },
+            {
+              "start": 25.53,
+              "end": 27.542,
+              "text": "Você pode conferir o que ainda está\nrodando após o tempo limite?"
+            },
+            {
+              "start": 27.816,
+              "end": 30.908,
+              "text": "Acho que fiz o mesmo problema ocorrer\nmais rápido, então que ótimo."
+            },
+            {
+              "start": 31.6,
+              "end": 32.985,
+              "text": "Eu já estava quase fechando o\nnotebook também."
+            },
+            {
+              "start": 33.709,
+              "end": 34.772,
+              "text": "Pelo visto, vamos ter que\nresolver isso agora."
+            }
+          ]
+        },
+        {
+          "language": "zh",
+          "audioLanguage": "en",
+          "cues": [
+            {
+              "start": 0.176,
+              "end": 2.376,
+              "text": "嘿，有人能看一下导出队列吗？"
+            },
+            { "start": 2.938, "end": 3.773, "text": "我加了重试机制。" },
+            {
+              "start": 4.287,
+              "end": 6.872,
+              "text": "就六行代码，我还以为五分钟就能搞定走人。"
+            },
+            {
+              "start": 7.241,
+              "end": 8.975,
+              "text": "结果点了一下就冒出九个任务。"
+            },
+            { "start": 9.489, "end": 10.244, "text": "现在变成12个了。" },
+            { "start": 10.629, "end": 11.303, "text": "还在往上涨！" },
+            {
+              "start": 11.994,
+              "end": 15.382,
+              "text": "先别问，我可没坐在那儿一直狂点按钮。"
+            },
+            {
+              "start": 16.008,
+              "end": 17.678,
+              "text": "我就点了一次，然后去接了杯水。"
+            },
+            {
+              "start": 18.015,
+              "end": 22.35,
+              "text": "页面显示失败了，但肯定有东西在运行，因为服务器"
+            },
+            { "start": 22.35, "end": 22.993, "text": "快被打爆了。" },
+            {
+              "start": 23.571,
+              "end": 25.144,
+              "text": "我把任务编号发在聊天里。"
+            },
+            {
+              "start": 25.53,
+              "end": 27.542,
+              "text": "能帮忙看看超时之后还有什么在运行吗？"
+            },
+            {
+              "start": 27.816,
+              "end": 30.908,
+              "text": "我好像只是让同一个问题发生得更快了，真不错。"
+            },
+            {
+              "start": 31.6,
+              "end": 32.985,
+              "text": "我刚才都准备合上电脑了。"
+            },
+            {
+              "start": 33.709,
+              "end": 34.772,
+              "text": "看来我们现在得处理这个了。"
+            }
+          ]
+        }
+      ],
+      "renditions": [
+        {
+          "language": "pt",
+          "url": "/samples/conversations/01-english/dub-portuguese.wav",
+          "duration": 35.587667
+        },
+        {
+          "language": "zh",
+          "url": "/samples/conversations/01-english/dub-chinese.wav",
+          "duration": 35.218375
+        }
+      ]
+    },
+    {
+      "id": "showcase-pt",
+      "title": "Marina: The work never stopped",
+      "language": "pt",
+      "url": "/samples/conversations/02-portuguese/original.wav",
+      "duration": 42.031021,
+      "captions": [
+        {
+          "language": "pt",
+          "audioLanguage": "pt",
+          "cues": [
+            {
+              "start": 0.256,
+              "end": 2.152,
+              "text": "Tá, achei as tarefas na fila."
+            },
+            {
+              "start": 3.003,
+              "end": 5.686,
+              "text": "É, a primeira tentativa não parou."
+            },
+            {
+              "start": 6.44,
+              "end": 8.095,
+              "text": "Quem desistiu foi a página."
+            },
+            {
+              "start": 8.786,
+              "end": 11.789,
+              "text": "O servidor continuou fazendo o\nrelatório normalmente."
+            },
+            {
+              "start": 12.4,
+              "end": 14.825,
+              "text": "Aí chegou outra tentativa e\ncomeçou tudo de novo."
+            },
+            {
+              "start": 15.194,
+              "end": 18.696,
+              "text": "Não é uma fila de coisas diferentes, é a\nmesma coisa várias vezes."
+            },
+            {
+              "start": 19.065,
+              "end": 22.149,
+              "text": "Inclusive o mesmo gráfico, que\ncontinua sem explicar nada."
+            },
+            { "start": 22.68, "end": 23.354, "text": "E tem mais." },
+            {
+              "start": 23.804,
+              "end": 28.173,
+              "text": "O serviço que recebe as chamadas já\ntenta três vezes antes de devolver um erro."
+            },
+            {
+              "start": 28.623,
+              "end": 32.035,
+              "text": "Então, a mudança nova está repetindo uma\noperação que já se repete."
+            },
+            {
+              "start": 32.55,
+              "end": 35.641,
+              "text": "Peraí, o processo em segundo\nplano também faz isso?"
+            },
+            {
+              "start": 36.333,
+              "end": 37.588,
+              "text": "Vou mandar os registros."
+            },
+            {
+              "start": 38.184,
+              "end": 41.773,
+              "text": "Por enquanto, ninguém aperta o botão,\nnem para ver se melhorou."
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "audioLanguage": "pt",
+          "cues": [
+            {
+              "start": 0.256,
+              "end": 2.152,
+              "text": "Okay, I found the tasks in the queue."
+            },
+            {
+              "start": 3.003,
+              "end": 5.686,
+              "text": "Yeah, the first attempt didn't finish."
+            },
+            {
+              "start": 6.44,
+              "end": 8.095,
+              "text": "The page was the one that\nstopped responding."
+            },
+            {
+              "start": 8.786,
+              "end": 11.789,
+              "text": "The server kept generating the\nreport normally."
+            },
+            {
+              "start": 12.4,
+              "end": 14.825,
+              "text": "Then another attempt came in and started\neverything all over again."
+            },
+            {
+              "start": 15.194,
+              "end": 18.696,
+              "text": "It's not a queue of different things,\nit's the same thing multiple times."
+            },
+            {
+              "start": 19.065,
+              "end": 22.149,
+              "text": "Including the same chart, which still\ndoesn't explain anything."
+            },
+            { "start": 22.68, "end": 23.354, "text": "And there's more." },
+            {
+              "start": 23.804,
+              "end": 26.09,
+              "text": "The service receiving the\ncalls already makes"
+            },
+            {
+              "start": 26.091,
+              "end": 28.173,
+              "text": "three attempts before returning an error."
+            },
+            {
+              "start": 28.623,
+              "end": 32.035,
+              "text": "So, the new change is repeating an\noperation that already repeats itself."
+            },
+            {
+              "start": 32.55,
+              "end": 35.641,
+              "text": "Wait, does the background\nprocess do that too?"
+            },
+            { "start": 36.333, "end": 37.588, "text": "I'll send the logs." },
+            {
+              "start": 38.184,
+              "end": 41.773,
+              "text": "For now, nobody should press the\nbutton—not even to check whether it improved."
+            }
+          ]
+        },
+        {
+          "language": "zh",
+          "audioLanguage": "pt",
+          "cues": [
+            {
+              "start": 0.256,
+              "end": 2.152,
+              "text": "好，我找到队列里的任务了。"
+            },
+            {
+              "start": 3.003,
+              "end": 5.686,
+              "text": "是的，第一次尝试并没有停下。"
+            },
+            { "start": 6.44, "end": 8.095, "text": "是页面先放弃了。" },
+            {
+              "start": 8.786,
+              "end": 11.789,
+              "text": "服务器一直在正常生成报告。"
+            },
+            {
+              "start": 12.4,
+              "end": 14.825,
+              "text": "然后又来了一次尝试，一切又重新开始了。"
+            },
+            {
+              "start": 15.194,
+              "end": 18.696,
+              "text": "这不是一堆不同的任务排成队，而是同一件事重复了好几次。"
+            },
+            {
+              "start": 19.065,
+              "end": 22.149,
+              "text": "包括那个依然什么都没说明白的相同图表。"
+            },
+            { "start": 22.68, "end": 23.354, "text": "而且还不止这些。" },
+            {
+              "start": 23.804,
+              "end": 28.173,
+              "text": "接收调用的服务在返回错误之前本身就会重试三次。"
+            },
+            {
+              "start": 28.623,
+              "end": 32.035,
+              "text": "所以，这次的新改动是在重复一个本就会重复的操作。"
+            },
+            {
+              "start": 32.55,
+              "end": 35.641,
+              "text": "等等，后台进程也是这样吗？"
+            },
+            { "start": 36.333, "end": 37.588, "text": "我去把日志发过去。" },
+            {
+              "start": 38.184,
+              "end": 41.773,
+              "text": "目前先别有人按那个按钮，也别为了看看有没有好转而去按它。"
+            }
+          ]
+        }
+      ],
+      "renditions": [
+        {
+          "language": "en",
+          "url": "/samples/conversations/02-portuguese/dub-english.wav",
+          "duration": 42.031062
+        },
+        {
+          "language": "zh",
+          "url": "/samples/conversations/02-portuguese/dub-chinese.wav",
+          "duration": 42.031062
+        }
+      ]
+    },
+    {
+      "id": "showcase-zh",
+      "title": "Chen: Why the jobs multiply",
+      "language": "zh",
+      "url": "/samples/conversations/03-chinese/original.wav",
+      "duration": 57.521646,
+      "captions": [
+        {
+          "language": "zh",
+          "audioLanguage": "zh",
+          "cues": [
+            {
+              "start": 0.66,
+              "end": 3.6,
+              "text": "嗯， 后台 这边 也 会 重试 三次。"
+            },
+            {
+              "start": 4.61,
+              "end": 11.39,
+              "text": "等一下， 不是 三次 重试， 是 最 多 执行 三次， 第一次 也 算。"
+            },
+            {
+              "start": 11.64,
+              "end": 18.54,
+              "text": "调用 方 三次， 网关 三次， 后台 再 来 三次， 一个 按钮 最"
+            },
+            {
+              "start": 18.54,
+              "end": 24.88,
+              "text": "多 二十七 次。 每 一层 都 觉得 自己 挺 负责 的， 问题 是"
+            },
+            {
+              "start": 24.88,
+              "end": 31.39,
+              "text": "请求 超时 了。 生成 报告 的 任务 没停，新 的 请求 又 没有 带上"
+            },
+            {
+              "start": 31.39,
+              "end": 37.63,
+              "text": "同一个 请求 编号， 所以 系统 觉得 哦， 又 来 一份， 这 不是"
+            },
+            {
+              "start": 37.63,
+              "end": 44.35,
+              "text": "恢复能力， 这是 重复劳动。 先 关掉 刚加 的 自动 重试， 别 再 提交"
+            },
+            {
+              "start": 44.35,
+              "end": 51.23,
+              "text": "了， 让 队列 慢慢 清完。 去 重 的 事 得 单独 补。\n我查 一下 这段 老代码 是"
+            },
+            {
+              "start": 51.23,
+              "end": 56.53,
+              "text": "谁 写 的？ 嗯， 这个 人 好像 就 在 群里。"
+            }
+          ]
+        },
+        {
+          "language": "en",
+          "audioLanguage": "zh",
+          "cues": [
+            {
+              "start": 0.66,
+              "end": 3.6,
+              "text": "Yeah, the backend will also\nretry three times."
+            },
+            {
+              "start": 4.61,
+              "end": 8.036,
+              "text": "Wait a minute, not three\nretries—it executes at"
+            },
+            {
+              "start": 8.037,
+              "end": 11.39,
+              "text": "most three times, including the\nfirst attempt."
+            },
+            {
+              "start": 11.64,
+              "end": 15.029,
+              "text": "Three times for the caller, three\ntimes for the gateway,"
+            },
+            {
+              "start": 15.03,
+              "end": 18.54,
+              "text": "and another three times on the\nbackend—one button click at"
+            },
+            {
+              "start": 18.54,
+              "end": 21.884,
+              "text": "most twenty-seven times. Every\nlayer thinks it's"
+            },
+            {
+              "start": 21.885,
+              "end": 24.88,
+              "text": "being quite responsible, but\nthe problem is"
+            },
+            {
+              "start": 24.88,
+              "end": 28.273,
+              "text": "the request timed out. The\nreport generation task"
+            },
+            {
+              "start": 28.274,
+              "end": 31.39,
+              "text": "didn't stop, and the new\nrequest didn't carry"
+            },
+            {
+              "start": 31.39,
+              "end": 37.63,
+              "text": "the same request ID, so the system\nthinks, 'Oh, here's another one.' This isn't"
+            },
+            {
+              "start": 37.63,
+              "end": 41.116,
+              "text": "resilience, this is redundant work.\nFirst, turn off the"
+            },
+            {
+              "start": 41.117,
+              "end": 44.35,
+              "text": "auto-retry that was just added,\nand stop submitting"
+            },
+            {
+              "start": 44.35,
+              "end": 47.79,
+              "text": "more; let the queue slowly clear out.\nDeduplication needs to"
+            },
+            {
+              "start": 47.791,
+              "end": 51.23,
+              "text": "be patched separately. Let me check\nwho this legacy code was"
+            },
+            {
+              "start": 51.23,
+              "end": 56.53,
+              "text": "written by? Hmm, looks like this person\nis right here in the group chat."
+            }
+          ]
+        },
+        {
+          "language": "pt",
+          "audioLanguage": "zh",
+          "cues": [
+            {
+              "start": 0.66,
+              "end": 3.6,
+              "text": "É, aqui no back-end também vai\ntentar três vezes."
+            },
+            {
+              "start": 4.61,
+              "end": 7.962,
+              "text": "Espera aí, não são três novas\ntentativas; são"
+            },
+            {
+              "start": 7.963,
+              "end": 11.39,
+              "text": "no máximo três execuções,\ncontando a primeira."
+            },
+            {
+              "start": 11.64,
+              "end": 18.54,
+              "text": "Três no cliente, três no gateway e mais\ntrês no back-end: um único clique pode"
+            },
+            {
+              "start": 18.54,
+              "end": 21.839,
+              "text": "resultar em até vinte e sete\nexecuções. Cada camada"
+            },
+            {
+              "start": 21.84,
+              "end": 24.88,
+              "text": "acha que está fazendo a sua\nparte, o problema é"
+            },
+            {
+              "start": 24.88,
+              "end": 27.985,
+              "text": "que a requisição expirou o tempo\nlimite. A tarefa de"
+            },
+            {
+              "start": 27.986,
+              "end": 31.39,
+              "text": "gerar o relatório não parou, e a\nnova requisição veio sem"
+            },
+            {
+              "start": 31.39,
+              "end": 37.63,
+              "text": "o mesmo ID de requisição, então o\nsistema acha: \"Opa, veio outra\". Isso não é"
+            },
+            {
+              "start": 37.63,
+              "end": 40.895,
+              "text": "resiliência, é retrabalho.\nPrimeiro desativem a nova"
+            },
+            {
+              "start": 40.896,
+              "end": 44.35,
+              "text": "tentativa automática\nrecém-adicionada e parem de enviar"
+            },
+            {
+              "start": 44.35,
+              "end": 47.935,
+              "text": "novas requisições; deixem a fila\nesvaziar aos poucos. A desduplicação terá"
+            },
+            {
+              "start": 47.936,
+              "end": 51.23,
+              "text": "que ser feita à parte. Deixa eu checar\nesse código antigo para saber"
+            },
+            {
+              "start": 51.23,
+              "end": 56.53,
+              "text": "quem o escreveu... É, parece que essa\npessoa está aqui no grupo."
+            }
+          ]
+        }
+      ],
+      "renditions": [
+        {
+          "language": "en",
+          "url": "/samples/conversations/03-chinese/dub-english.wav",
+          "duration": 57.521646
+        },
+        {
+          "language": "pt",
+          "url": "/samples/conversations/03-chinese/dub-portuguese.wav",
+          "duration": 57.521646
+        }
+      ]
+    }
+  ]
+}

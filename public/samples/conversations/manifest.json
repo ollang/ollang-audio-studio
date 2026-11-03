@@ -1,0 +1,693 @@
+{
+  "title": "The Five-Minute Fix",
+  "generation_date": "2026-10-22",
+  "inventory_updated_at": "2026-11-01T21:29:41.434968+00:00",
+  "dubbingStyle": "lipsync",
+  "source_language_variants": {
+    "en": "English, intended US delivery",
+    "pt": "Brazilian Portuguese",
+    "zh": "Mandarin, Simplified Chinese text",
+    "de": "Standard German"
+  },
+  "production": {
+    "originals": "HeyGen synthetic speech",
+    "translations": "Ollang AI dubbing",
+    "post_processing": "Format conversion only; no trimming, speed changes, equalization, added noise, or added stutters",
+    "rights": "Ollang Inc. confirmed public redistribution permission for bundled sample assets on 2026-11-01. See MEDIA_NOTICE.md for scope; technical and linguistic review statuses remain separate.",
+    "heygen_generation_calls": 8,
+    "selected_originals": 4,
+    "superseded_or_rejected_takes": 4
+  },
+  "clips": [
+    {
+      "order": 1,
+      "folder": "01-english",
+      "source_language": "en",
+      "intended_source_locale": "en-US",
+      "speaker": {
+        "character": "Alex",
+        "gender": "male",
+        "voice_catalog_name": "Ray",
+        "role": "Backend engineer · the small change"
+      },
+      "original": {
+        "filename": "01-english/original.wav",
+        "language": "en",
+        "provenance": "HeyGen original; canonical WAV conversion",
+        "duration_seconds": 35.030208,
+        "sha256": "27091e3c17cc8cb48dea46eaa7a751cb04aa84eafd155922da65ab54b7c3a235",
+        "format": {
+          "sample_rate_hz": 48000,
+          "channels": 1,
+          "bits_per_sample": 16,
+          "encoding": "PCM signed 16-bit little-endian"
+        },
+        "within_app_120_second_limit": true,
+        "verification": {
+          "decoding": "passed",
+          "automated_speech_check": "passed",
+          "automated_language": "en",
+          "automated_language_matches": true,
+          "automated_language_probability": 0.9986502528190613,
+          "automated_transcript": " Hey, can someone take a look at the export queue? I added retries. Six lines thought I'd be out of here in five minutes. Now I've got nine jobs from one click. There are 12 now. It's still going up. And before you ask, no, I didn't sit there clicking the button. I clicked once and went to get water. The page says it failed, but something's definitely running, because the servers are getting hammered. I'll put the job numbers in the chat. Can you check what's still running after the timeout? I think I've made the same problem happen faster. So that's nice. I was about to close my laptop too. Apparently we're doing this now.",
+          "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+          "last_detected_speech_end_seconds": 34.9,
+          "meaning_review": "pending human review",
+          "voice_naturalness": "accepted by user",
+          "truncation_review": "pending human review; full decode passed"
+        }
+      },
+      "translations": [
+        {
+          "target_language": "pt",
+          "status": "available",
+          "filename": "01-english/dub-portuguese.wav",
+          "language": "pt",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 35.587667,
+          "sha256": "16eb0f42470d7fea5cf372f09e20dc507fa2508815ba2b6929471578f08c70d6",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "pt",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.9953757524490356,
+            "automated_transcript": " Ei, alguém pode dar uma olhada na fila de exportação? Adicionei retentativas, seis linhas, achei que sairia daqui em cinco minutos. Agora, tenho 9 tarefas com um único clique. Agora, são 12, ainda está subindo. E antes que você pergunta, não, não fiquei lá clicando no botão. Cliquei uma vez e fui pegar água. A página diz que falhou, mas com certeza tem algo rodando, porque os servidores estão sobrecarregados. Vou colocar os números da tarefas no chat. Você pode conferir o que ainda está rodando, após o tempo limite. Acho que fiz um mesmo problema ou correr mais rápido. Então, que ótimo! Eu já estava quase fechando, não te buque também. Pelo visto, vamos ter que resolver isso agora.",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 35.4,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        },
+        {
+          "target_language": "zh",
+          "status": "available",
+          "filename": "01-english/dub-chinese.wav",
+          "language": "zh",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 35.218375,
+          "sha256": "04465893dc9f3deb1432aa00cbd31f7c6028e7728cdb018fbc32a583417728da",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "zh",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.9984625577926636,
+            "automated_transcript": "嘿,有人能看一下岛出对列吗?我家了重视机制,就六行代嘛,我还以为五分钟就能搞定走人结果典了一下,就冒出九个任务现在变成十二个了,还在网上长先别问,我可没坐在那儿一只狂点按钮我就典了一次,然后去接了被水夜面显示失败了,但肯定有东西在运行因为服务器快被打爆了我把任务编号发现聊天理,能帮忙看看超市之后,还有什么在运行吗?我好像只是让同一个问题发生得更快了,真不错我刚才也准备核上电脑了看来,我们现在得处理这个了",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 35.18,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        }
+      ],
+      "captions": [
+        {
+          "filename": "01-english/captions.en.for-en.vtt",
+          "text_language": "en",
+          "associated_audio_language": "en",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Original CC transcription",
+          "sha256": "c2c537d67825513c8d4e91d97ec225550b9257c3df084fe27690c4fcb870d6d2",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        },
+        {
+          "filename": "01-english/captions.pt.for-en.vtt",
+          "text_language": "pt",
+          "associated_audio_language": "en",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "f594f5d3193d4a9c77bd8166dde452ef72757434f7f955a219d4ab9cbd5fea80",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        },
+        {
+          "filename": "01-english/captions.zh.for-en.vtt",
+          "text_language": "zh",
+          "associated_audio_language": "en",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "81ab4d560d9a09b3a12acf73f868cb871701e9f7c96e87e73ff404ffd1e0b8a5",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        }
+      ],
+      "outstanding_review": [
+        "Human comparison of dubbed meaning and voice quality",
+        "Human subtitle synchronization review"
+      ],
+      "source_within_30_to_60_second_brief": true,
+      "source_quality_findings": []
+    },
+    {
+      "order": 2,
+      "folder": "02-portuguese",
+      "source_language": "pt",
+      "intended_source_locale": "pt-BR",
+      "speaker": {
+        "character": "Marina",
+        "gender": "female",
+        "voice_catalog_name": "Sofia Brazil",
+        "role": "Site reliability engineer · the work did not stop"
+      },
+      "original": {
+        "filename": "02-portuguese/original.wav",
+        "language": "pt",
+        "provenance": "HeyGen original; canonical WAV conversion",
+        "duration_seconds": 42.031021,
+        "sha256": "39623ad074fd5d00d6b3e000cfc63e5ceddd3055675c14acca48a67ecbcfcd0d",
+        "format": {
+          "sample_rate_hz": 48000,
+          "channels": 1,
+          "bits_per_sample": 16,
+          "encoding": "PCM signed 16-bit little-endian"
+        },
+        "within_app_120_second_limit": true,
+        "verification": {
+          "decoding": "passed",
+          "automated_speech_check": "passed",
+          "automated_language": "pt",
+          "automated_language_matches": true,
+          "automated_language_probability": 0.9970850348472595,
+          "automated_transcript": " Tá, achei as tarefas na fila. É, a primeira tentativa não parou. Quem desistiu foi a página. O servidor continuou fazendo o relatório normalmente. Aí chegou outra tentativa e começou tudo de novo. Não é uma fila de coisas diferentes. É a mesma coisa várias vezes, inclusive o mesmo gráfico, que continua sem explicar nada. E tem mais, o serviço que recebe as chamadas já tenta 3 vezes antes de devolver um erro. Então, a mudança nova está repetindo uma operação que já se repete. Pera aí, o processo em segundo plano também faz isso? Vou mandar os registros. Por enquanto ninguém aperta o botão. Nem pra ver se melhorou.",
+          "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+          "last_detected_speech_end_seconds": 41.86,
+          "meaning_review": "pending human review",
+          "voice_naturalness": "accepted by user",
+          "truncation_review": "pending human review; full decode passed"
+        }
+      },
+      "translations": [
+        {
+          "target_language": "en",
+          "status": "available",
+          "filename": "02-portuguese/dub-english.wav",
+          "language": "en",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 42.031062,
+          "sha256": "d67effe58040fa56513af1f4804bd594cd1d7c82e50e88078fce1624d0b2dd3e",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "en",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.9985426664352417,
+            "automated_transcript": " Okay, I found the tasks in the queue. Yeah, the first attempt didn't finish. The page was the one that stopped responding. The server kept generating the report normally. Then another attempt came in and started everything all over again. It's not a queue of different things. It's the same thing multiple times. Including the same chart, which still doesn't explain anything. And there's more. The service receiving the calls already makes three attempts before returning an error. So the new change is repeating an operation that already repeats itself. Wait, does the background process do that too? I'll send the logs. For now, nobody should press the button. Not even to check whether it improved.",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 41.6,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        },
+        {
+          "target_language": "zh",
+          "status": "available",
+          "filename": "02-portuguese/dub-chinese.wav",
+          "language": "zh",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 42.031062,
+          "sha256": "e39894fe250c3098af8e55670907fd331612097ba6bd701060c61d90594c699c",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "zh",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.9989292025566101,
+            "automated_transcript": "好,我找到對列禮的任務了是的,第一次嘗試並沒有停下是夜面先放棄了服務器一直在正常生成報告然後又來了一次嘗試,一切又重新開始了這不是一堆不同的任務排程隊而是同意見是重複了好幾次包括那個一人什麼都沒說明白的相同圖表而且還不止這些接收掉用的服務在反會錯誤之前本身就會重視三次所以這次的新改動是在重複一個本就會重複的操作等等,後台進程也是這樣嗎?我去把日致發過去目前先別有人按那個按鈕也別為了看看有沒有好轉而去按他",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 41.7,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        }
+      ],
+      "captions": [
+        {
+          "filename": "02-portuguese/captions.pt.for-pt.vtt",
+          "text_language": "pt",
+          "associated_audio_language": "pt",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Original CC transcription",
+          "sha256": "8f89c268e1bf079659aedbe5fc9a0815297d42e15890cc8eb2cdaa3a63a40772",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        },
+        {
+          "filename": "02-portuguese/captions.en.for-pt.vtt",
+          "text_language": "en",
+          "associated_audio_language": "pt",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "aa7bbd75d290cef8fbe58c457c998657fcd85e8dca6874981a1de0f02d76c371",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        },
+        {
+          "filename": "02-portuguese/captions.zh.for-pt.vtt",
+          "text_language": "zh",
+          "associated_audio_language": "pt",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "e825f0a99096f639131082a82b23e527ceba2a00387fdb3d054ab166d2fb0c52",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        }
+      ],
+      "outstanding_review": [
+        "Human comparison of dubbed meaning and voice quality",
+        "Human subtitle synchronization review"
+      ],
+      "source_within_30_to_60_second_brief": true,
+      "source_quality_findings": []
+    },
+    {
+      "order": 3,
+      "folder": "03-chinese",
+      "source_language": "zh",
+      "intended_source_locale": "zh-CN",
+      "speaker": {
+        "character": "Chen",
+        "gender": "male",
+        "voice_catalog_name": "Martin Li",
+        "role": "Background-worker maintainer · the multiplication"
+      },
+      "original": {
+        "filename": "03-chinese/original.wav",
+        "language": "zh",
+        "provenance": "HeyGen original; canonical WAV conversion",
+        "duration_seconds": 57.521646,
+        "sha256": "67184ccf716e0d943eb149097d933d21964fef01ef55c0158c0b6784541709a7",
+        "format": {
+          "sample_rate_hz": 48000,
+          "channels": 1,
+          "bits_per_sample": 16,
+          "encoding": "PCM signed 16-bit little-endian"
+        },
+        "within_app_120_second_limit": true,
+        "verification": {
+          "decoding": "passed",
+          "automated_speech_check": "passed",
+          "automated_language": "zh",
+          "automated_language_matches": true,
+          "automated_language_probability": 0.9963956475257874,
+          "automated_transcript": "嗯,后台这边也会重视三次,等一下,不是三次重视,是最多执行三次,第一次也算,调用方三次,网官三次,后台再来三次,一个按游,最多二十七次,每一层都觉得自己挺负责的,问题是,请求朝时了,生成报告的任务媒庭,新的请求,又没有带上同一个请求便好,所以系统觉得,哦,又来一份,这不是恢复能力,这是重复劳动,先关掉刚加的自动重视,别再提教了,让对脸慢慢清完,去重的是得单独补,我查一下这段老太马是谁写的,嗯,这个人好像就在群里。",
+          "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+          "last_detected_speech_end_seconds": 57.04,
+          "meaning_review": "pending human review",
+          "voice_naturalness": "accepted by user",
+          "truncation_review": "pending human review; full decode passed"
+        }
+      },
+      "translations": [
+        {
+          "target_language": "en",
+          "status": "available",
+          "filename": "03-chinese/dub-english.wav",
+          "language": "en",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 57.521646,
+          "sha256": "0deb9eca0e2458a0180e6b0078fa3c231030eedc1be4097df92494231fbdf75a",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "en",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.998793363571167,
+            "automated_transcript": " Yeah, the backend will also retry three times. Wait a minute, not three retries. It executes at most three times, including the first attempt. Three times for the caller, three times for the gateway, and another three times on the backend. One button click at most 27 times. Every layer thinks it's being quite responsible. But the problem is the request timed out. The report generation task didn't stop. And the new request didn't carry the same request ID. So the system thinks, oh, here's another one. This isn't resilience. This is redundant work. First, turn off the auto-retry that was just added, and stop submitting more. Let the queue slowly clear out. Deduplication needs to be patched separately. Let me check who this legacy code was written by. Looks like this person is right here in the group chat.",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 56.14,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        },
+        {
+          "target_language": "pt",
+          "status": "available",
+          "filename": "03-chinese/dub-portuguese.wav",
+          "language": "pt",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 57.521646,
+          "sha256": "d03c1d6e46c8aab1b75852207bbfe75e19f4a07aaad29e1d8ebc92dcdc860fb3",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "pt",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.9927976727485657,
+            "automated_transcript": " É, aqui no back end também vai tentar três vezes. Espera aí, não são três novas tentativas, são no máximo três execuções, contando a primeira. Trez no cliente, trez no gateway e mais trez no back end. Um único clique pode resultar em até 27 execuções. Cada camada acha que está fazendo a sua parte. O problema é que a requisição inspirou o tempo limite, a tarefa de gerar o relatório não parou. E a nova requisição veio sem o mesmo ideia de requisição. Então, um sistema acha. Opa, veio outra. Isso não é resliência. É retrabalho. Primeiro desativa em a nova tentativa automática restém adicionada e parem de enviar novas requisições. Deixem a fila esvasiar aos poucos. A desduplicação terá que ser feita a parte. Deixa eu checar esse código antigo para saber quem não escreveu. É, parece que essa pessoa está aqui no grupo.",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 56.39,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        }
+      ],
+      "captions": [
+        {
+          "filename": "03-chinese/captions.zh.for-zh.vtt",
+          "text_language": "zh",
+          "associated_audio_language": "zh",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Original CC transcription",
+          "sha256": "cb819171804cfc3a002fe14f41553dbc5eb06c521d81d9f4463fcba11f7a6f9e",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        },
+        {
+          "filename": "03-chinese/captions.en.for-zh.vtt",
+          "text_language": "en",
+          "associated_audio_language": "zh",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "b6aa1575059c214ffe2aa0b5432e919ccb1becd78fd60179fc2721954cf464a8",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        },
+        {
+          "filename": "03-chinese/captions.pt.for-zh.vtt",
+          "text_language": "pt",
+          "associated_audio_language": "zh",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "615b06cd988d7946d5bd536605c2687307cddc16a76d4c833de4423d9f805777",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        }
+      ],
+      "outstanding_review": [
+        "Human comparison of dubbed meaning and voice quality",
+        "Human subtitle synchronization review"
+      ],
+      "source_within_30_to_60_second_brief": true,
+      "source_quality_findings": []
+    },
+    {
+      "order": 4,
+      "folder": "04-german",
+      "source_language": "de",
+      "intended_source_locale": "de-DE",
+      "speaker": {
+        "character": "Thomas",
+        "gender": "male",
+        "voice_catalog_name": "Steadfast Stefan",
+        "role": "Senior engineer · the old code was mine"
+      },
+      "original": {
+        "filename": "04-german/original.wav",
+        "language": "de",
+        "provenance": "HeyGen original; canonical WAV conversion",
+        "duration_seconds": 45.270208,
+        "sha256": "a098d375c687af43fa534b98851539f5d66e46a073072a022c84e6f90c50e42e",
+        "format": {
+          "sample_rate_hz": 48000,
+          "channels": 1,
+          "bits_per_sample": 16,
+          "encoding": "PCM signed 16-bit little-endian"
+        },
+        "within_app_120_second_limit": true,
+        "verification": {
+          "decoding": "passed",
+          "automated_speech_check": "passed",
+          "automated_language": "de",
+          "automated_language_matches": true,
+          "automated_language_probability": 0.9954239726066589,
+          "automated_transcript": " Ja, äh, ich bin noch da. Die alte Änderung ist von mir. Im Kommentar steht nur vorübergehend, das war vor vier Jahren. Damals kamen alle Anfragen von einer Stelle. Das Programm versucht es inzwischen an drei Stellen jeweils dreimal. Gut, die neuen automatischen Versuche sind jetzt aus. Die Wartenschlange wird kürzer, doppelte Aufträge müssen wir noch verhindern. Aber nicht noch schnell heute Abend. Der erste Bericht ist fertig. Die anderen kommen auch gerade an. Alle mit dem selben Diagramm. Immerhin sind wir uns bei den Zahlen einig. Aus fünf Minuten Arbeits sind elf Seiten Fehleranalyse geworden. Die Änderungen hat immer noch sechs Zeilen.",
+          "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+          "last_detected_speech_end_seconds": 44.92,
+          "meaning_review": "pending human review",
+          "voice_naturalness": "accepted by user",
+          "truncation_review": "pending human review; full decode passed"
+        }
+      },
+      "translations": [
+        {
+          "target_language": "en",
+          "status": "available",
+          "filename": "04-german/dub-english.wav",
+          "language": "en",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 45.270229,
+          "sha256": "cef2a3f9939b8f2f35262c40fba64b4721132568d7a5e41fcfcf833ff5fef7a2",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "en",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.9965378046035767,
+            "automated_transcript": " Yes, I'm still here. The old change is mine. The comment says, only temporary. That was four years ago. Back then, all requests came from one place. The program now tries three times at each of three different places. Good. The new automatic retries are off now. The queue is getting shorter. We still need to prevent duplicate jobs. But not rushed tonight. The first report is ready. The others are arriving now too. All with the same chart. At least we agree on the numbers. Five minutes of work turned into eleven pages of error analysis. The change is still six lines.",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 44.74,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        },
+        {
+          "target_language": "pt",
+          "status": "available",
+          "filename": "04-german/dub-portuguese.wav",
+          "language": "pt",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 45.270229,
+          "sha256": "031857a0fb0499c1a62e8e126310b969ec1b20df76ac184c5a07d469674ee084",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "pt",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.9853567481040955,
+            "automated_transcript": " Sim, ainda estou aqui. A alteração antiga foi feita por mim. No comentário diz, apenas temporário, isso aconteceu há quatro anos. Naquela época todas as solicitações vinham de um só lugar. Agora, o programa tenta três vezes em cada um dos três lugares. Bom, as novas tentativas automáticas estão desativadas agora. A fila está diminuindo. Ainda precisamos evitar tarefas duplicadas. Mas não vamos fazer isso as pressas hoje a noite. O primeiro relatório está pronto. Os outros também estão chegando agora. Todos com o mesmo gráfico. Pelo menos concordamos com os números. 5 minutos de trabalho se transformaram em 11 páginas de análise de erros. A alteração ainda tem 6 linhas.",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 44.74,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        },
+        {
+          "target_language": "zh",
+          "status": "available",
+          "filename": "04-german/dub-chinese.wav",
+          "language": "zh",
+          "provenance": "Ollang-generated prerecorded translation; lipsync",
+          "duration_seconds": 45.270229,
+          "sha256": "f786b463248ae19db4ffbb64e91734da8642b13102fde3e71682603aa1dc9683",
+          "format": {
+            "sample_rate_hz": 48000,
+            "channels": 1,
+            "bits_per_sample": 16,
+            "encoding": "PCM signed 16-bit little-endian"
+          },
+          "within_app_120_second_limit": true,
+          "verification": {
+            "decoding": "passed",
+            "automated_speech_check": "passed",
+            "automated_language": "zh",
+            "automated_language_matches": true,
+            "automated_language_probability": 0.9991256594657898,
+            "automated_transcript": "是的,我还在,之前的修改是我做的。驻世理写着,仅为零时修改,那是四年前的事了。当时所有请求都来自同一个地方。现在程序会在三个地方各城是三次。好了,新的自动城市现在已经关闭了。对列正在变短,我们还得防止重复的任务,但今晚不必及于意识,第一份报告已经出来了,其他的也刚好生成了。全都复着相同的图表,至少我们在数据上达成了一致。五分钟的工作变成了十一夜的错误分析。改动依然只有六行,",
+            "automated_transcript_caution": "Offline Whisper tiny evidence; may mistranscribe homophones and is not the final caption text",
+            "last_detected_speech_end_seconds": 44.72,
+            "meaning_review": "pending human review",
+            "voice_naturalness": "pending human review",
+            "truncation_review": "pending human review; full decode passed"
+          }
+        }
+      ],
+      "captions": [
+        {
+          "filename": "04-german/captions.en.for-de.vtt",
+          "text_language": "en",
+          "associated_audio_language": "de",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "517e98ad871a3e42807a8bb86d8cee5fdbd8f605618edb06468d17bc17053450",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        },
+        {
+          "filename": "04-german/captions.pt.for-de.vtt",
+          "text_language": "pt",
+          "associated_audio_language": "de",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "362b882d63d69b59ac0813b450a0b0a8b0430ca7f8530b6d533e34cf9f3ecba6",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        },
+        {
+          "filename": "04-german/captions.zh.for-de.vtt",
+          "text_language": "zh",
+          "associated_audio_language": "de",
+          "timeline": "original source audio",
+          "provenance": "Ollang pipeline output",
+          "timeline_evidence": "Cue intervals preserve original CC timing, including splits within source cues; 2 ms rounding tolerance, no timestamps changed",
+          "sha256": "93cbaf2260dd156185248f7887425cca04f287c0636a659a92e401e0ff8b15f4",
+          "verification": "Timing association checked structurally; human synchronization review pending"
+        }
+      ],
+      "outstanding_review": [
+        "Human comparison of dubbed meaning and voice quality",
+        "Human subtitle synchronization review"
+      ],
+      "source_within_30_to_60_second_brief": true,
+      "source_quality_findings": []
+    }
+  ],
+  "submission_counts": {
+    "source_upload_requests": 6,
+    "top_level_dubbing_requests": 18,
+    "completed_top_level_dubs": 12,
+    "automatic_pipeline_child_orders": 24,
+    "total_ai_dubbing_parents_verified": 18,
+    "scope_note": "Owner approved the German correction (+1 upload, +3 dubbing orders) and selection of the latest casual English take (+1 upload, +3 dubbing orders). Total authorized: 6 uploads and 18 top-level dubbing orders. Superseded sets remain private."
+  },
+  "missing_or_unverified_captions": [
+    {
+      "clip_order": 1,
+      "text_language": "pt",
+      "audio_language": "pt",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    },
+    {
+      "clip_order": 1,
+      "text_language": "zh",
+      "audio_language": "zh",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    },
+    {
+      "clip_order": 2,
+      "text_language": "en",
+      "audio_language": "en",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    },
+    {
+      "clip_order": 2,
+      "text_language": "zh",
+      "audio_language": "zh",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    },
+    {
+      "clip_order": 3,
+      "text_language": "en",
+      "audio_language": "en",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    },
+    {
+      "clip_order": 3,
+      "text_language": "pt",
+      "audio_language": "pt",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    },
+    {
+      "clip_order": 4,
+      "text_language": "en",
+      "audio_language": "en",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    },
+    {
+      "clip_order": 4,
+      "text_language": "pt",
+      "audio_language": "pt",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    },
+    {
+      "clip_order": 4,
+      "text_language": "zh",
+      "audio_language": "zh",
+      "reason": "No caption output independently verified against this dubbed audio timeline; original-timeline captions may be available"
+    }
+  ],
+  "assets_complete": true,
+  "automated_verification_complete": true,
+  "known_translation_findings": [],
+  "resolved_translation_findings": [
+    {
+      "clip_order": 4,
+      "targets": ["en", "pt", "zh"],
+      "category": "translation meaning",
+      "source_line": "Heute versucht es jede Schicht dreimal.",
+      "intended_meaning": "Today every software layer tries three times.",
+      "observed_meaning": "The three dubs interpret Schicht as a work shift: each shift / cada turno / 每个班次.",
+      "status": "resolved",
+      "proposed_source_line": "Das Programm versucht es inzwischen an drei Stellen jeweils dreimal.",
+      "proposed_english_meaning": "The program now makes three attempts at each of three different places.",
+      "scope": "Superseded German outputs; replacement approved by user",
+      "approved_correction_scope": "One additional HeyGen take, one additional source upload, and three additional dubbing orders; user approved total cap of five uploads and fifteen top-level orders.",
+      "resolution": "Source sentence rewritten; selected v3 source and three corrective dubs verified by provider subtitle text and independent offline ASR. All retain the intended three-attempts-at-three-places meaning. Human listening review remains pending."
+    }
+  ],
+  "automated_media_checks_complete": true,
+  "human_review_complete": false,
+  "source_performance_review": {
+    "status": "accepted by user",
+    "date": "2026-10-22",
+    "english_selection": "Latest casual rewrite, normal speed, no written fillers or staged restarts"
+  },
+  "complete": false,
+  "listening_languages": ["en", "pt", "zh"],
+  "curation_note": "English, Portuguese and Chinese translated audio/subtitles, with original recordings preserved. German translated outputs have been removed from the public package."
+}

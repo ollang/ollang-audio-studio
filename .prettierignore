@@ -1,0 +1,9 @@
+package-lock.json
+dist
+node_modules
+test-results
+playwright-report
+.data
+.cache
+audio-service/requirements.lock
+docs/qa/*.json

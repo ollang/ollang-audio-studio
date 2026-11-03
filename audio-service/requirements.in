@@ -1,0 +1,10 @@
+fastapi==0.162.0
+uvicorn==0.34.3
+faster-whisper==1.2.1
+huggingface-hub==0.34.4
+pytest==9.0.3
+ruff==0.12.10
+mypy==1.17.1
+
+# ctranslate2 requires setuptools; pin its patched vendored packaging tools.
+setuptools==84.2.1

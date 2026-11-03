@@ -1,0 +1,62 @@
+WEBVTT
+
+00:00:00.660 --> 00:00:03.600
+Yeah, the backend will also
+retry three times.
+
+00:00:04.610 --> 00:00:08.036
+Wait a minute, not three
+retries—it executes at
+
+00:00:08.037 --> 00:00:11.390
+most three times, including the
+first attempt.
+
+00:00:11.640 --> 00:00:15.029
+Three times for the caller, three
+times for the gateway,
+
+00:00:15.030 --> 00:00:18.540
+and another three times on the
+backend—one button click at
+
+00:00:18.540 --> 00:00:21.884
+most twenty-seven times. Every
+layer thinks it's
+
+00:00:21.885 --> 00:00:24.880
+being quite responsible, but
+the problem is
+
+00:00:24.880 --> 00:00:28.273
+the request timed out. The
+report generation task
+
+00:00:28.274 --> 00:00:31.390
+didn't stop, and the new
+request didn't carry
+
+00:00:31.390 --> 00:00:37.630
+the same request ID, so the system
+thinks, 'Oh, here's another one.' This isn't
+
+00:00:37.630 --> 00:00:41.116
+resilience, this is redundant work.
+First, turn off the
+
+00:00:41.117 --> 00:00:44.350
+auto-retry that was just added,
+and stop submitting
+
+00:00:44.350 --> 00:00:47.790
+more; let the queue slowly clear out.
+Deduplication needs to
+
+00:00:47.791 --> 00:00:51.230
+be patched separately. Let me check
+who this legacy code was
+
+00:00:51.230 --> 00:00:56.530
+written by? Hmm, looks like this person
+is right here in the group chat.
+
